@@ -9,12 +9,18 @@ Program for calculating user's ARI.
 
 
 
+<br /><br /><br /><br /><br />
+
+
 ### About the files:
 
 - **[linear regression classifier.R]** contains the codes for creating the linear regression classifier.
 - **[classifier testings.R]** contains the codes for creating and testing the classifiers.
 - **[(prepared data)csv_output classified prepared.csv]** contains the data used for training and testing our classifier in all our programs.
 
+
+
+<br /><br /><br /><br /><br />
 
 
 ### About the tested classifiers:
