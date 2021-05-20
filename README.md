@@ -12,11 +12,11 @@ Program for calculating user's ARI.
 <br /><br /><br /><br /><br />
 ### About the classifications:
 - Classification of ARI scores:
-                # ARI score of <4:beginner ->stored as integer 1
-                # ARI score of 4~6.9999:intermediate->stored as integer 2
-                # ARI score of 7~9.9999: competent>stored as integer 3
-                # ARI score of 10~12.9999:advanced>stored as integer 4
-                # ARI score of 13+:expert  ->stored as integer 5
+                # ARI score of <4:beginner is,       stored as integer 1
+                # ARI score of 4~6.9999:intermediate is,       stored as integer 2
+                # ARI score of 7~9.9999: competent is,       stored as integer 3
+                # ARI score of 10~12.9999:advanced is,       stored as integer 4
+                # ARI score of 13+:expert is,       stored as integer 5
 
 ### About the files:
 
