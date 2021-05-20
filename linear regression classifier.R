@@ -6,7 +6,7 @@ rm(list = ls())
 
 
 options(digits = 4)
-DS <- read.csv("csv_output classified prepared.csv")
+DS <- read.csv("(prepared data)csv_output classified prepared.csv")
 
 
 ################       Dataset Pre-processing      ######################
