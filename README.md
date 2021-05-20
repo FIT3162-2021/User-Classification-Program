@@ -20,7 +20,7 @@ Program for calculating user's ARI.
 
 
 
-<br /><br /><br /><br /><br />
+<br />
 
 
 ### About the tested classifiers:
