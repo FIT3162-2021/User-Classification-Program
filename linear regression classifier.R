@@ -46,3 +46,37 @@ fit = lm(Classification ~ Response1a + Response2a + Response3a + Response4a + Re
 #                                               "predict(fit, input_predictor_variables)"
 #                                                 where input_predictor_variables,
 #                                                          and it will return the predicted values.  
+
+
+
+
+################       Tests      ######################
+# the below are tests for expected output of the classifier purely to see if its working as intended.
+# these tests here are not meant for assessing accuracy of the classifier.
+
+test_classifier <- function(a,b,c,d,e,f,g,equivalent){
+  input <- data.frame(Response1a  =c(a),
+                      Response2a = c(b),
+                      Response3a = c(c),
+                      Response4a = c(d),
+                      Response5a = c(e),
+                      Response6a = c(f),
+                      Response7a = c(g))
+  
+  round(predict(fit, input)) == equivalent
+}
+
+
+
+test_classifier(1,1,1,1,1,1,1,5)
+test_classifier(2,2,2,2,2,2,2,4)
+test_classifier(3,3,3,3,3,3,3,3)
+test_classifier(4,4,4,4,4,4,4,2)
+test_classifier(5,5,5,5,5,5,1,1)
+test_classifier(5,5,5,5,5,5,5,0)
+
+test_classifier(2,4,3,4,3,2,1,3)
+test_classifier(2,4,3,4,5,5,5,1)
+test_classifier(1,1,1,1,1,2,2,5)
+
+# all tests gave TRUE, therefore we can conclude the classifier is working as intended.
